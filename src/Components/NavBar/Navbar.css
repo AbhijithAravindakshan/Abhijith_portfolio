@@ -1,0 +1,54 @@
+.navbar{
+    background: rgb(5,5,5);
+    height: 2rem;
+    width: 130vw;
+    max-width: 75rem;
+    margin: 0 4rem;
+    padding: 3rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: -25px;
+    object-fit: cover;
+    height: 10rem;
+    width:  8rem;
+}
+.desktopMenuListItem:hover{
+    color: rgb(196, 167, 235);
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid rgb(196, 167, 235);
+}
+
+.desktopMenuListItem{
+  margin: 1rem;
+  cursor: pointer;
+}
+.desktopMenuBtn{
+    
+    background: white;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.desktopMenuImg{
+    object-fit: cover;
+    height: 2rem;
+    width: 2rem;
+    margin: 5px;
+
+}
+.active{
+    color: rgb(238, 151, 20);
+}
