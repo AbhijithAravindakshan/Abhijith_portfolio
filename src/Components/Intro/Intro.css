@@ -64,13 +64,13 @@
 
     .bg {
         top: 3rem;
-        right: 0;
+        right: -70px;
     }
 
     .introContent {
         padding: 50px;
         font-size: 20px;
-        margin-top: -30rem;
+        margin-top: -28rem;
         width: 60px;
     }
 
@@ -80,7 +80,7 @@
 
     .introPara {
         font-size: 14px;
-        padding: 10px;
+        
     }
 
     .btn {
