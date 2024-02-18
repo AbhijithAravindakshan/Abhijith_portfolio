@@ -52,3 +52,33 @@
 .active{
     color: rgb(238, 151, 20);
 }
+@media (max-width: 768px) {
+    .navbar {
+        height: auto;
+        width: auto;
+        max-width: 100%;
+        margin: 0;
+        padding: 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .desktopMenu {
+        display: none;
+    }
+
+    .desktopMenuBtn {
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    .desktopMenuImg {
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-right: 5px;
+    }
+}

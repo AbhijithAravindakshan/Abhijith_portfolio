@@ -1,6 +1,6 @@
 #intro{
     height: calc(90vh) ;
-    width: 200vh;
+    width: 100vh;
     max-width: 75rem;
     margin: 0 auto;
     overflow: hidden;
@@ -55,19 +55,41 @@
     padding-top: 16px;
     
 }
-@media screen and (max-width:845px){
-    .bg{
-        right: -70rem;
-        top: 5rem;
+@media (max-width: 768px) {
+    #intro {
+        width: auto;
+        max-width: none;
+        margin-left: 0;
     }
-    .introContent{
-        margin-top: -400px;
-        font-size: 7vh;
-        width: 25rem;
-        margin-left: -50px;
+
+    .bg {
+        top: 3rem;
+        right: 0;
     }
-    .introPara{
-        font-size: large;
-        font-weight: bolder;
+
+    .introContent {
+        padding: 50px;
+        font-size: 20px;
+        margin-top: -30rem;
+        width: 60px;
+    }
+
+    .hello {
+        font-size: 1.2rem;
+    }
+
+    .introPara {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .btn {
+        margin: 1rem 0 3rem 0;
+        padding: 0.50rem 1rem;
+    }
+
+    .hire {
+        height: 1rem;
+        width: 1rem;
     }
 }

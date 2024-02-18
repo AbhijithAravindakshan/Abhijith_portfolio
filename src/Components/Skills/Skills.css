@@ -58,4 +58,32 @@
     font-size: 12px;
     font-weight: 100;
 }
+@media (max-width: 768px) {
+    #skills {
+        padding: 1rem;
+    }
+
+    .skillTitle {
+        font-size: 1.5rem;
+    }
+
+    .skillDesc {
+        font-size: 0.75rem;
+    }
+
+    .skillBars {
+        width: 90vw;
+    }
+
+    .skillBarImg {
+        height: 2rem;
+        width: 4rem;
+    }
+
+    .pOne,
+    .pTwo,
+    .pThree {
+        margin-left: -6rem;
+    }
+}
 
