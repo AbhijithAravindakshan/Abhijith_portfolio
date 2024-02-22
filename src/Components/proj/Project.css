@@ -48,30 +48,32 @@
 }
 @media (max-width: 768px) {
     #projects {
-        margin: 3rem auto;
+        margin: 3rem 5rem;
         padding: 0 1rem;
     }
 
     .projectTitle {
         font-size: 20px;
+        margin-left: 6rem
     }
 
     .projectDesc {
-        margin-left: 0;
+        margin-left: 6.55rem;
+        display: flex;
     }
 
     .projectImages {
-        width: 90%;
+        width: 40%;
         margin: 1rem auto;
-        margin-left: 0;
+        margin-left: 13rem;
+        display: flex;
     }
 
     .projectImg {
-        width: 100%;
         margin: 1rem 0;
     }
 
     .projectBtn {
-        margin: 2rem auto;
+        margin: 2rem 15rem;
     }
 }

@@ -62,8 +62,8 @@
 }
 @media (max-width: 768px) {
     #works {
-        margin-left: 2rem;
-        padding: 0 1rem;
+        margin: -14rem 4rem;
+
     }
 
     .worksTitle {
@@ -75,7 +75,7 @@
     }
 
     .workImg {
-        width: 45%;
+        width: 25%;
         height: auto;
         margin: 0.4rem 2%;
     }

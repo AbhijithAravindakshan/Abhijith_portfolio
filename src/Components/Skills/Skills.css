@@ -60,7 +60,8 @@
 }
 @media (max-width: 768px) {
     #skills {
-        padding: 1rem;
+        padding: 4rem;
+        margin-left: 4rem;
     }
 
     .skillTitle {
@@ -83,7 +84,7 @@
     .pOne,
     .pTwo,
     .pThree {
-        margin-left: -6rem;
+        margin-top: 2rem;
     }
 }
 
