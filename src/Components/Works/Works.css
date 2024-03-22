@@ -1,6 +1,6 @@
 #works{
     margin-top: 5rem;
-    margin-left: 10rem;
+    margin-left: 16rem;
     min-height: calc(100vh);
     width: 100vw;
     max-width: 60rem;
@@ -24,7 +24,7 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    width: 50vw;
+    width: 40vw;
 
 }
 .workImg {
